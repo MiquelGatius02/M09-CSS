@@ -1,0 +1,22 @@
+#t90-img{
+    height: 100%;
+    width: 100%;
+}
+.flags {
+    width: 30vw;
+    height: 15vw;
+    padding-top: 5%;
+
+ 
+ }
+#flag_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+ .img-l {
+    padding-left: 10%;
+ }
+ 
+ .img-r {
+    padding-left: 10%;
+ }

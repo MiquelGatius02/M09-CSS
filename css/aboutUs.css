@@ -1,0 +1,51 @@
+main {
+    width: min(20em, 95%);
+    padding: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.5em;
+    border: 0.2em solid #FF5733;
+}
+
+input:focus-visible {
+    outline: 0.15em solid #FF5733;
+}
+
+.submit-wrapper {
+    margin-top: 1em;
+    align-self: center;
+    width: 70%;
+}
+
+.submit-btn {
+
+    background: #FF5733;
+    color: white;
+    border: 0;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
+}
+
+.pass-inp__invaild {
+    border-color: var(--err-clr);
+    outline: 0;
+}
+
+.mensaje-inp {
+    width: 150%;
+    font-size: 1.2rem;
+    border: 0.2em solid #FF5733;
+}

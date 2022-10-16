@@ -1,0 +1,52 @@
+/* variables */
+/* general */
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   border: none;
+   outline: none;
+
+}
+
+/* dedicado */
+
+.logo {
+   width: 100px;
+   height: 50px;
+}
+
+header {
+   background-color: #44665B;
+   padding-bottom: 20px;
+}
+
+body {
+   background-color: #7C7C7C;
+}
+
+footer {
+   background-color: #44665B;
+   margin-top: 2%;
+   padding: 1%
+}
+
+header div .link {
+   margin-top: -20px;
+}
+
+a {
+   color: #ffffff;
+   background: #FF5733;
+   padding: 10px;
+   border-radius: 15px;
+   border: 2px;
+
+
+}
+
+li ul {
+   margin-top: -35px;
+   margin-left: 110px;
+}
