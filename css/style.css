@@ -50,3 +50,31 @@ li ul {
    margin-top: -35px;
    margin-left: 110px;
 }
+
+.topnav {
+   float: left;
+   overflow: hidden;
+ }
+ 
+ .topnav a {
+   float: left;
+   display: block;
+   color: #000000;
+   text-align: center;
+   padding: 14px 36px;
+   text-decoration: none;
+   font-size: 17px;
+   transition: transform .1s;
+   margin-top: 3%
+ }
+ 
+ .topnav a:hover {
+   transform: scale(1.050);
+   color: rgb(140, 0, 255);
+ }
+ 
+ .topnav a.active {
+   font-size: 25px;
+   color: rgb(203, 0, 180);
+   margin-top: 2%;
+ }
